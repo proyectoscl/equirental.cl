@@ -7,3 +7,6 @@
 .logoBrand{display:flex;align-items:center}.logoBrand img{display:block;width:190px;height:58px;object-fit:contain}.footerLogo img{display:block;width:170px;height:55px;object-fit:contain}footer{align-items:center}@media(max-width:650px){.logoBrand img{width:155px;height:52px}.footerLogo img{width:150px}}
 
 .logoBrand img,.footerLogo img{background:transparent}.logoBrand{overflow:visible}
+
+/* Header blanco para destacar la identidad EquiRental */
+header{background:#fff;color:#17202a;border-bottom:1px solid #e5e8ea;box-shadow:0 2px 12px #0000000a}header nav a{color:#263238;font-weight:600}header nav a:hover{color:#f36b16}.logoBrand img{width:205px;height:64px}@media(max-width:650px){header{height:70px}.logoBrand img{width:175px;height:58px}}
