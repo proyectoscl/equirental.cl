@@ -66,3 +66,6 @@ article{box-shadow:0 12px 32px rgba(16,24,32,.075)}
  .hero:before{right:-38%;width:95%;opacity:.7}
  .hero:after{width:220px;height:220px;right:-22%;bottom:5%}
 }
+
+/* Galería fichas brazos articulados */
+.productGallery{min-width:0}.galleryMain{position:relative;margin-top:12px;height:430px;background:#fff;border:1px solid #dde3e7;border-radius:10px;display:flex;align-items:center;justify-content:center;overflow:hidden}.galleryMain img{width:100%;height:100%;object-fit:contain;padding:16px}.galleryMain>button{position:absolute;z-index:2;top:50%;transform:translateY(-50%);width:44px;height:58px;border:0;border-radius:8px;background:#101820d9;color:#fff;font-size:34px;cursor:pointer}.galleryMain>button:first-child{left:12px}.galleryMain>button:last-child{right:12px}.galleryThumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px}.galleryThumbs button{height:82px;padding:3px;border:2px solid transparent;border-radius:7px;background:#fff;cursor:pointer}.galleryThumbs button.active{border-color:#f5b400}.galleryThumbs img{width:100%;height:100%;object-fit:contain}.galleryNote{display:block;margin-top:9px;color:#7a858d}@media(max-width:650px){.galleryMain{height:310px}.galleryThumbs button{height:58px}.galleryMain>button{width:38px;height:50px}}
