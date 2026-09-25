@@ -90,3 +90,16 @@ article{box-shadow:0 12px 32px rgba(16,24,32,.075)}
       url('/home-bg.png') 62% center/cover no-repeat;
   }
 }
+
+
+/* Hero eyebrow emphasis */
+.hero > div > span{
+  display:inline-block;
+  font-size:20px;
+  line-height:1.25;
+  letter-spacing:1.4px;
+  font-weight:800;
+}
+@media(max-width:650px){
+  .hero > div > span{font-size:17px;letter-spacing:1px}
+}
