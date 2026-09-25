@@ -26,3 +26,43 @@ footer .footerLogo img{width:280px;height:140px;object-fit:contain;object-positi
   .logoBrand img{width:245px;height:76px}
   footer .footerLogo img{width:230px;height:115px}
 }
+
+
+/* Fondo corporativo EquiRental: más profundidad sin perder limpieza */
+body{
+  background:
+    radial-gradient(circle at 12% 18%,rgba(245,180,0,.08),transparent 28%),
+    radial-gradient(circle at 88% 34%,rgba(31,47,59,.07),transparent 30%),
+    linear-gradient(180deg,#f7f9fa 0%,#eef2f4 100%);
+}
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    linear-gradient(110deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.91) 52%,rgba(242,245,247,.86) 100%);
+}
+.hero:before{
+  content:"";position:absolute;right:-7%;top:-38%;width:52%;height:175%;
+  background:linear-gradient(135deg,transparent 18%,rgba(245,180,0,.10) 18% 19%,transparent 19% 34%,rgba(23,32,42,.045) 34% 58%,transparent 58%);
+  transform:skewX(-12deg);pointer-events:none;
+}
+.hero:after{
+  content:"";position:absolute;right:7%;bottom:8%;width:340px;height:340px;border-radius:50%;
+  border:1px solid rgba(23,32,42,.06);box-shadow:0 0 0 52px rgba(23,32,42,.018),0 0 0 105px rgba(245,180,0,.025);
+  pointer-events:none;
+}
+.hero>div{position:relative;z-index:1}
+section#equipos{
+  background:
+    linear-gradient(rgba(255,255,255,.76),rgba(255,255,255,.76)),
+    repeating-linear-gradient(135deg,rgba(23,32,42,.025) 0 1px,transparent 1px 18px);
+}
+article{box-shadow:0 12px 32px rgba(16,24,32,.075)}
+.contact{
+  background:
+    radial-gradient(circle at 85% 20%,rgba(245,180,0,.075),transparent 27%),
+    linear-gradient(135deg,#fff 0%,#f5f7f8 100%);
+}
+@media(max-width:650px){
+ .hero:before{right:-38%;width:95%;opacity:.7}
+ .hero:after{width:220px;height:220px;right:-22%;bottom:5%}
+}
