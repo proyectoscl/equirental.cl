@@ -103,3 +103,30 @@ article{box-shadow:0 12px 32px rgba(16,24,32,.075)}
 @media(max-width:650px){
   .hero > div > span{font-size:20px;letter-spacing:1px}
 }
+
+
+/* Home propuesta aprobada */
+.hero.heroPropuesta{
+  padding:0;
+  min-height:0;
+  display:block;
+  background:#fff;
+}
+.hero.heroPropuesta:before,.hero.heroPropuesta:after{display:none}
+.heroPropuestaLink{display:block;width:100%;line-height:0}
+.heroPropuesta img{
+  display:block;
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
+@media(max-width:650px){
+  .hero.heroPropuesta{background:#fff}
+  .heroPropuesta{overflow-x:hidden}
+  .heroPropuesta img{
+    width:185%;
+    max-width:none;
+    transform:translateX(-2%);
+    transform-origin:left top;
+  }
+}
