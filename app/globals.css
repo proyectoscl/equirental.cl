@@ -130,3 +130,15 @@ article{box-shadow:0 12px 32px rgba(16,24,32,.075)}
     transform-origin:left top;
   }
 }
+
+/* Navegación rápida entre modelos */
+.otherModels{padding:42px 6%;background:#f5f7f8}
+.otherModels h2{margin:6px 0 20px}
+.otherModelsGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.otherModelCard{display:flex;flex-direction:column;gap:7px;padding:20px;background:#fff;border:1px solid #dde3e7;border-radius:10px;text-decoration:none;color:#101820;transition:.2s}
+.otherModelCard:hover{transform:translateY(-2px);border-color:#f5b400}
+.otherModelCard small{font-weight:700;color:#6c7780}
+.otherModelCard strong{font-size:28px}
+.otherModelCard span{font-weight:700;color:#d88700}
+@media(max-width:850px){.otherModelsGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.otherModelsGrid{grid-template-columns:1fr}}
