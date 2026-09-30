@@ -1,9 +1,9 @@
 const equipos=[
-{tipo:'Plataforma de tijera',altura:'8 metros',energia:'Eléctrica',slug:'tijera-8m',img:'https://img.forconstructionpros.com/files/base/acbm/fcp/image/2020/02/Snorkel_S3019E__1_.5e48ad0ee0bab.png?auto=format%2Ccompress&q=70',uso:'Compacta y maniobrable para mantenimiento, instalaciones y trabajos interiores sobre superficies niveladas.'},
-{tipo:'Plataforma de tijera',altura:'10 metros',energia:'Eléctrica',slug:'tijera-10m',img:'https://smartutleie-production.s3.amazonaws.com/images/faesagfagga_1EtQrvU.format-jpeg.height-900.jpg',uso:'Excelente alternativa para bodegas, centros logísticos y mantenimiento industrial con operación silenciosa.'},
-{tipo:'Plataforma de tijera',altura:'12 metros',energia:'Eléctrica',slug:'tijera-12m',img:'https://www.genielift.com/images/default-source/product-images/slab-scissor-lifts/gs-3246.jpg',uso:'Mayor altura de trabajo para montaje, mantenimiento e instalaciones en espacios industriales.'},
-{tipo:'Brazo articulado',altura:'12 metros',energia:'Eléctrico',slug:'articulada-12m',img:'https://www.rjc.sa/uploads/equipment/eq_68b8d08d0e81e.webp',uso:'Alcance vertical y horizontal para acceder a puntos elevados con obstáculos y estructuras intermedias.'},
-{tipo:'Brazo articulado',altura:'16 metros',energia:'Eléctrico',slug:'articulada-16m',img:'https://www.workplatformltd.co.uk/cached-img/containers/assets/product-images/genie-articulating-boom-lift-z60dc/z-60-dc_21-%281%29-min-%281%29.jpg/b95112357c96b09d4d4a216e488763f7/z-60-dc_21-%281%29-min-%281%29.webp',uso:'Acceso flexible para faenas técnicas, montaje y mantenimiento que requieren mayor alcance.'}
+{tipo:'Plataforma de tijera',altura:'8 metros',energia:'Eléctrica',slug:'tijera-8m',img:'/Tijera-01.png',uso:'Compacta y maniobrable para mantenimiento, instalaciones y trabajos interiores sobre superficies niveladas.'},
+{tipo:'Plataforma de tijera',altura:'10 metros',energia:'Eléctrica',slug:'tijera-10m',img:'/Tijera-01.png',uso:'Excelente alternativa para bodegas, centros logísticos y mantenimiento industrial con operación silenciosa.'},
+{tipo:'Plataforma de tijera',altura:'12 metros',energia:'Eléctrica',slug:'tijera-12m',img:'/Tijera-01.png',uso:'Mayor altura de trabajo para montaje, mantenimiento e instalaciones en espacios industriales.'},
+{tipo:'Brazo articulado',altura:'12 metros',energia:'Eléctrico',slug:'articulada-12m',img:'/brazo-01.png',uso:'Alcance vertical y horizontal para acceder a puntos elevados con obstáculos y estructuras intermedias.'},
+{tipo:'Brazo articulado',altura:'16 metros',energia:'Eléctrico',slug:'articulada-16m',img:'/brazo-01.png',uso:'Acceso flexible para faenas técnicas, montaje y mantenimiento que requieren mayor alcance.'}
 ];
 export default function Home(){return <main>
 <header><a className="brand logoBrand" href="#"><img src="/LOGOTIPO.png" alt="EquiRental" /></a><nav><a href="#equipos">Equipos</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a></nav></header>
