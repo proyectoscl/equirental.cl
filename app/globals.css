@@ -142,3 +142,19 @@ article{box-shadow:0 12px 32px rgba(16,24,32,.075)}
 .otherModelCard span{font-weight:700;color:#d88700}
 @media(max-width:850px){.otherModelsGrid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:500px){.otherModelsGrid{grid-template-columns:1fr}}
+
+/* Professional footer */
+.siteFooter{background:#0b1724;color:#dbe4ec;padding:54px max(6vw,24px) 20px;margin-top:0}
+.footerTop{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1.25fr;gap:42px;align-items:start}
+.footerBrand .footerLogo{display:block;background:#fff;border-radius:8px;padding:10px;width:max-content;margin-bottom:18px}
+.footerBrand .footerLogo img{display:block;width:210px;max-width:100%;height:auto}
+.footerBrand p{max-width:330px;line-height:1.65;color:#aebdca;margin:0}
+.footerColumn{display:flex;flex-direction:column;gap:11px}
+.footerColumn strong{color:#fff;font-size:15px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}
+.footerColumn a{color:#cbd6df;text-decoration:none;line-height:1.45;transition:color .2s ease}
+.footerColumn a:hover{color:#f5b400}
+.footerColumn span{color:#aebdca;line-height:1.6}
+.footerContact a{word-break:break-word}
+.footerBottom{max-width:1200px;margin:40px auto 0;padding-top:20px;border-top:1px solid #263746;display:flex;justify-content:space-between;gap:20px;color:#8293a2;font-size:13px}
+@media(max-width:900px){.footerTop{grid-template-columns:1fr 1fr}.footerBrand{grid-column:1/-1}.footerBottom{flex-direction:column}}
+@media(max-width:560px){.siteFooter{padding:40px 22px 18px}.footerTop{grid-template-columns:1fr;gap:30px}.footerBrand{grid-column:auto}.footerBrand .footerLogo img{width:180px}}
