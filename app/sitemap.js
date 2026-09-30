@@ -11,5 +11,10 @@ export default function sitemap(){
   {url:`${base}/equipos/tijera-12m`,lastModified:new Date(),changeFrequency:'monthly',priority:0.9},
   {url:`${base}/equipos/articulada-12m`,lastModified:new Date(),changeFrequency:'monthly',priority:0.9},
   {url:`${base}/equipos/articulada-16m`,lastModified:new Date(),changeFrequency:'monthly',priority:0.9}
+  {url:`${base}/arriendo-plataforma-tijera-8-metros`,lastModified:new Date(),changeFrequency:'weekly',priority:0.9},
+  {url:`${base}/arriendo-plataforma-tijera-10-metros`,lastModified:new Date(),changeFrequency:'weekly',priority:0.9},
+  {url:`${base}/arriendo-plataforma-tijera-12-metros`,lastModified:new Date(),changeFrequency:'weekly',priority:0.9},
+  {url:`${base}/arriendo-brazo-articulado-12-metros`,lastModified:new Date(),changeFrequency:'weekly',priority:0.9},
+  {url:`${base}/arriendo-brazo-articulado-16-metros`,lastModified:new Date(),changeFrequency:'weekly',priority:0.9},
  ];
 }
