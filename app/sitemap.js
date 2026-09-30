@@ -2,6 +2,7 @@ export default function sitemap(){
  const base='https://www.equirental.cl';
  return [
   {url:base,lastModified:new Date(),changeFrequency:'weekly',priority:1},
+  {url:`${base}/arriendo-alza-hombre-santiago`,lastModified:new Date(),changeFrequency:'weekly',priority:0.95},
   {url:`${base}/arriendo-plataformas-elevadoras`,lastModified:new Date(),changeFrequency:'weekly',priority:0.95},
   {url:`${base}/arriendo-plataforma-tijera`,lastModified:new Date(),changeFrequency:'weekly',priority:0.95},
   {url:`${base}/arriendo-brazo-articulado`,lastModified:new Date(),changeFrequency:'weekly',priority:0.95},
