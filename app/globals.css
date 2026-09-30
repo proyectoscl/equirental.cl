@@ -160,6 +160,39 @@ article{box-shadow:0 12px 32px rgba(16,24,32,.075)}
 @media(max-width:560px){.siteFooter{padding:40px 22px 18px}.footerTop{grid-template-columns:1fr;gap:30px}.footerBrand{grid-column:auto}.footerBrand .footerLogo img{width:180px}}
 
 /* Corporate work-application pages */
+.specPage{background:#fff}
+.specPage .specHero{position:relative;overflow:hidden;background:#fff;color:#10283e;padding:72px max(7vw,28px) 58px;border-bottom:1px solid #e5e9ed}
+.specPage .specHero:before{content:"";position:absolute;left:max(7vw,28px);top:42px;width:54px;height:4px;background:#f5b400;border-radius:4px}
+.specPage .specHero:after{display:none}
+.specPage .specHero .eyebrow{display:inline-block;color:#657581;font-weight:800;letter-spacing:.14em;font-size:11px;margin:0 0 18px;padding-top:6px}
+.specPage .specHero h1{max-width:920px;font-size:clamp(36px,4.5vw,58px);line-height:1.06;margin:0 0 20px;letter-spacing:-.035em;color:#0c2c4b}
+.specPage .specHero p{max-width:780px;font-size:18px;line-height:1.65;color:#5d6b76;margin:0}
+.specPage .specBody{padding:58px max(7vw,28px);background:#fff}
+.specPage .specBody>div{max-width:1120px;margin:auto;background:#fff;border:0;border-radius:0;padding:0;box-shadow:none;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);column-gap:58px;align-items:start}
+.specPage .specBody img{grid-column:1;grid-row:1 / span 10;width:100%;max-height:560px!important;object-fit:contain!important;background:#f5f7f8!important;border:1px solid #e4e9ed!important;border-radius:12px!important;padding:18px;margin:0!important}
+.specPage .specBody h2,.specPage .specBody h3,.specPage .specBody p,.specPage .specBody>a{grid-column:2}
+.specPage .specBody h2{font-size:27px;color:#0c2c4b;margin:4px 0 12px;line-height:1.2}
+.specPage .specBody h2:not(:first-of-type){margin-top:28px}
+.specPage .specBody h3{color:#183a57;margin:20px 0 8px}
+.specPage .specBody p{color:#586874;line-height:1.75;font-size:16px;margin:0 0 14px}
+.specPage .specBody a{color:#0b568f;font-weight:750;text-decoration:none}
+.specPage .specBody a:hover{color:#d99f00}
+.specPage .otherModels{padding:62px max(7vw,28px);background:#f4f6f7;border-top:1px solid #e5e9ed}
+.specPage .otherModels>h2{max-width:1200px;margin:0 auto 28px;color:#0c2c4b;font-size:31px;letter-spacing:-.02em}
+.specPage .otherModelsGrid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.specPage .otherModelCard{background:#fff;border:1px solid #dfe5e9;border-radius:10px;padding:14px;text-decoration:none;box-shadow:none;transition:transform .18s ease,border-color .18s ease}
+.specPage .otherModelCard:hover{transform:translateY(-3px);border-color:#d6a300}
+.specPage .otherModelCard img{width:100%!important;height:190px!important;object-fit:contain!important;background:#f8f9fa;border-radius:7px;margin:0 0 16px!important}
+.specPage .otherModelCard small{color:#89959e;font-size:10px;font-weight:800;letter-spacing:.12em}
+.specPage .otherModelCard strong{display:block;color:#102f4c;font-size:18px;margin:5px 0 8px}
+.specPage .otherModelCard span{color:#667681;line-height:1.5;font-size:14px}
+.specPage .specCta{background:#0c2c4b;color:#fff;padding:42px max(7vw,28px);display:flex;align-items:center;justify-content:center;gap:36px;text-align:left}
+.specPage .specCta h2{font-size:28px;margin:0;letter-spacing:-.02em}
+.specPage .specCta .primary{display:inline-block;background:#f5b400;color:#14202a;text-decoration:none;font-weight:800;padding:14px 22px;border-radius:6px;margin:4px}
+@media(max-width:900px){.specPage .specBody>div{grid-template-columns:1fr}.specPage .specBody img{grid-column:1;grid-row:auto;margin-bottom:30px!important}.specPage .specBody h2,.specPage .specBody h3,.specPage .specBody p,.specPage .specBody>a{grid-column:1}.specPage .otherModelsGrid{grid-template-columns:1fr 1fr}.specPage .specCta{display:block;text-align:center}.specPage .specCta div{margin-top:18px}}
+@media(max-width:580px){.specPage .specHero{padding-top:62px;padding-bottom:46px}.specPage .specHero:before{top:34px}.specPage .specHero p{font-size:16px}.specPage .specBody{padding-top:38px;padding-bottom:42px}.specPage .otherModelsGrid{grid-template-columns:1fr}.specPage .specCta h2{font-size:24px}}
+
+
 .specPage .specHero{position:relative;overflow:hidden;background:linear-gradient(120deg,#071b2f 0%,#0b3158 100%);color:#fff;padding:82px max(7vw,28px) 76px}
 .specPage .specHero:after{content:"";position:absolute;right:-90px;top:-120px;width:430px;height:430px;border:1px solid rgba(245,180,0,.22);border-radius:50%}
 .specPage .specHero .eyebrow{display:inline-block;color:#f5b400;font-weight:800;letter-spacing:.12em;font-size:12px;margin-bottom:18px}
