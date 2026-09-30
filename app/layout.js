@@ -31,7 +31,7 @@ const organization={
  url:'https://www.equirental.cl',
  logo:'https://www.equirental.cl/LOGOTIPO.png',
  email:'contacto@equirental.cl',
- telephone:'+56233247534',
+ telephone:'+56992247334',
  description:'Arriendo de plataformas elevadoras eléctricas, plataformas de tijera y brazos articulados para trabajos en altura en Chile.',
  areaServed:{'@type':'Country',name:'Chile'}
 };
